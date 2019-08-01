@@ -534,8 +534,14 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
+}
+header a.button.git {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+header a.button.lin {
+  background: transparent url(../images/linkedin-button.png) 0 0 no-repeat;
+}
+
 aside a.button {
   display: block;
   width: 138px;
