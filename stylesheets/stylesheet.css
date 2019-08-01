@@ -534,8 +534,15 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+header a.button.git {
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  margin-top: -20px
+}
+header a.button.lin {
+  background: transparent url(../images/linkedin-button.png) 0 0 no-repeat;
+}
+
 aside a.button {
   display: block;
   width: 138px;
@@ -769,6 +776,12 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.client-logo {
+  max-height: 35px;
+  vertical-align: middle;
+  margin: 5px;
+}
 
 /* #Media Queries
 ================================================== */
